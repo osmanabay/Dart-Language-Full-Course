@@ -8,6 +8,19 @@ void main() {
 
   const int succesValueHigh = 2;
 
+
+  String esma = "abay";
+
+  switch (esma) {
+    case "1":
+      
+      break;
+        case "abay":
+      print("yupiiii");
+      break;
+    default:
+  }
+
   switch (classDegree) {
     case succesValueHigh:
       print('bravo');

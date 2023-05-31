@@ -1,4 +1,10 @@
 void main(List<String> args) {
+  String userName = "";
+  userName = "Esma Abay";
+  print(userName);
+
+  String applicationId= "5";
+
   print("Hello");
 
   print("Hello" + "Osman");
@@ -18,4 +24,6 @@ void main(List<String> args) {
   print(money); 
 
   print(hello + ' ' + '$money');
+
+  // String, int, double, bool, 
 }

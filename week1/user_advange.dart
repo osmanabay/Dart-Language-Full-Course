@@ -6,6 +6,8 @@ void main() {
   final int bankMoney = 100;
   const String bankName = "VB Bank";
 
+  const PI = 3.14;
+
   var userName2 = 'Osman2';
   var userName2Money = 15;
 

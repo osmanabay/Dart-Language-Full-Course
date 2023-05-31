@@ -17,12 +17,12 @@ void main() {
   String name = '';
   // 0, 1, 2
   List<int> moneys = [100, 110, 500, 200, 300];
+  // List<int> moneys = [5, 100, 110, 300, 200, 300, 500, 15];
   final List<int> newMoneys = [100, 110, 500, 200, 300];
 
   print('musteri 1 parasi: ${moneys[0]}');
 
   // paralari parasi buyuk olana gore
-
   moneys.sort();
   moneys.add(15);
   moneys.insert(2, 300);
@@ -49,6 +49,18 @@ void main() {
 
   List<int> moneyCustomerNews = [100, 30, 40, 60, -5];
   moneyCustomerNews.sort();
+  
+  for (var i = 0; i < moneyCustomerNews.length; i++) {
+    print('musteri parasi: ${moneyCustomerNews[i]}');
+    
+  }
+
+  for (var element in moneyCustomerNews) {
+    print('for in musteri parasi: $element');
+    
+  }
+
+
   for (int index = 0; index < moneyCustomerNews.length; index += 1) {
     print('musteri parasi: ${moneyCustomerNews[index]}');
     if (moneyCustomerNews[index] > 35) {

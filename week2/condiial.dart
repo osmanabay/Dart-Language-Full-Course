@@ -50,19 +50,22 @@ void main() {
   final String kxCompony = "kx";
   final String xCompany = "x";
 
-  const int companyLenght = 6;
+  String esma = "465465";
+  print("esma değişkeninnin uzunluğud:" + esma.length.toString());
+
+  const int companyLenght = 1;
   String results = "";
   if (ahmetCompany.length > companyLenght) {
-    results = results + ahmetCompany;
+    results = results + ' ' + ahmetCompany;
   }
   if (mehmetCompany.length > companyLenght) {
-    results = results + mehmetCompany;
+    results = results + ' ' + mehmetCompany;
   }
   if (veliCompany.length > companyLenght) {
-    results = results + veliCompany;
+    results = results + ' ' + veliCompany;
   }
   if (kxCompony.length > companyLenght) {
-    results = results + kxCompony;
+    results = results + ' ' + kxCompony;
   }
   if (xCompany.length > companyLenght) {
     results += xCompany;
